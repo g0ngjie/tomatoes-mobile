@@ -1,8 +1,31 @@
 {
   "name": "tomatoes-mobile",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Mobile terminal function",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": ""
+  },
   "repository": "git@gitee.com:gjwork/tomatoes-mobile.git",
   "author": "Gj <gongjie@otosaas.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitee.com/gjwork/tomatoes-common-lib/issues"
+  },
+  "homepage": "https://gitee.com/gjwork/tomatoes-common-lib",
+  "keywords": [
+    "mobile",
+    "mobile function",
+    "tomatoes"
+  ],
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "vconsole": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7"
+  }
 }
