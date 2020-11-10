@@ -1,5 +1,5 @@
 {
-  "name": "tomatoes-mobile",
+  "name": "@tomatoes/mobile",
   "version": "1.0.0",
   "description": "Mobile terminal function",
   "main": "lib/index.js",
