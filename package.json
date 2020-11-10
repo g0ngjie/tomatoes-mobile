@@ -1,0 +1,8 @@
+{
+  "name": "tomatoes-mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitee.com:gjwork/tomatoes-mobile.git",
+  "author": "Gj <gongjie@otosaas.com>",
+  "license": "MIT"
+}
