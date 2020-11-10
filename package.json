@@ -3,29 +3,33 @@
   "version": "1.0.0",
   "description": "Mobile terminal function",
   "main": "lib/index.js",
+  "typings": "types/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && gulp && rm -rf types/*.d.ts && mv dist/*.d.ts types && rm -rf dist",
     "test": "cd test && yarn serve"
   },
   "repository": "git@gitee.com:gjwork/tomatoes-mobile.git",
   "author": "Gj <gongjie@otosaas.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitee.com/gjwork/tomatoes-common-lib/issues"
+    "url": "https://gitee.com/gjwork/tomatoes-mobile/issues"
   },
-  "homepage": "https://gitee.com/gjwork/tomatoes-common-lib",
+  "homepage": "https://gitee.com/gjwork/tomatoes-mobile",
   "keywords": [
     "mobile",
     "mobile function",
     "tomatoes"
   ],
   "files": [
-    "lib"
+    "lib",
+    "types/*.d.ts"
   ],
   "dependencies": {
     "vconsole": "^3.3.4"
   },
   "devDependencies": {
-    "@types/node": "^14.14.7"
+    "@types/node": "^14.14.7",
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
   }
 }

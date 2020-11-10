@@ -14,7 +14,7 @@ export function addVconsole(alwaysShow: boolean | undefined): void {
   // 添加vonsole的埋点， 5指点击可唤出
   let i = 0
   let vTimer: any
-  document.body.addEventListener('touchstart', e => {
+  document?.addEventListener('touchstart', e => {
     console.log(e.touches.length)
     i++
     if (e.touches.length === 5 && i >= 5) {
