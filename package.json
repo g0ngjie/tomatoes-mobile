@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
-    "test": ""
+    "test": "cd test && yarn serve"
   },
   "repository": "git@gitee.com:gjwork/tomatoes-mobile.git",
   "author": "Gj <gongjie@otosaas.com>",
