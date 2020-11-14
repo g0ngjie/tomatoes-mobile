@@ -8,13 +8,13 @@
     "build": "./build.sh",
     "test": "cd test && yarn serve"
   },
-  "repository": "git@gitee.com:gjwork/tomatoes-mobile.git",
-  "author": "Gj <gongjie@otosaas.com>",
+  "repository": "git@github.com:g0ngjie/tomatoes-mobile.git",
+  "author": "Gj <gongjie0422@163.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitee.com/gjwork/tomatoes-mobile/issues"
+    "url": "https://github.com/g0ngjie/tomatoes-mobile/issues"
   },
-  "homepage": "https://gitee.com/gjwork/tomatoes-mobile",
+  "homepage": "https://github.com/g0ngjie/tomatoes-mobile",
   "keywords": [
     "mobile",
     "mobile function",
