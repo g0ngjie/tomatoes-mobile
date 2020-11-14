@@ -2,6 +2,6 @@
  * add eruda
  *
  * @export
- * @param {(boolean | undefined)} alwaysShow
+ * @param {boolean} alwaysShow
  */
-export declare function addEruda(alwaysShow: boolean | undefined): void;
+export declare function addEruda(alwaysShow?: boolean): void;

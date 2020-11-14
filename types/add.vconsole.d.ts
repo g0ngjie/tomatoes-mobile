@@ -2,6 +2,6 @@
  * add vconsole
  *
  * @export
- * @param {(boolean | undefined)} alwaysShow
+ * @param {boolean} alwaysShow
  */
-export declare function addVconsole(alwaysShow: boolean | undefined): void;
+export declare function addVconsole(alwaysShow?: boolean): void;

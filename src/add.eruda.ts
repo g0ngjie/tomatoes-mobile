@@ -13,9 +13,9 @@ function init() {
  * add eruda
  *
  * @export
- * @param {(boolean | undefined)} alwaysShow
+ * @param {boolean} alwaysShow
  */
-export function addEruda(alwaysShow: boolean | undefined): void {
+export function addEruda(alwaysShow?: boolean): void {
   if (alwaysShow) {
     init()
     return

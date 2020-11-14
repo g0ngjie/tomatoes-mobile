@@ -2,9 +2,9 @@
  * add vconsole
  *
  * @export
- * @param {(boolean | undefined)} alwaysShow
+ * @param {boolean} alwaysShow
  */
-export function addVconsole(alwaysShow: boolean | undefined): void {
+export function addVconsole(alwaysShow?: boolean): void {
   if (alwaysShow) {
     const V: any = require('vconsole')
     const v = new V()

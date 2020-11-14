@@ -20,13 +20,13 @@ import { addVconsole, addEruda, isIos } from "@tomatoes/mobile";
  * options:
  * It can be called by five finger touch
  */
-addVconsole(alwaysShow: boolean | undefined): void;
+addVconsole(alwaysShow?: boolean): void;
 /**
  * options:
  * - Get request parameter add [eruda = true] to call
  * - LocalStorage sets the key of [active-eruda] to call
  */
-addEruda(alwaysShow: boolean | undefined): void;
+addEruda(alwaysShow?: boolean): void;
 /**
  * Is itIOS
  */
