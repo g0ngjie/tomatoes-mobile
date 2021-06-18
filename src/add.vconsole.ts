@@ -30,7 +30,6 @@ export function addVconsole(alwaysShow?: boolean, touchCount: number = 5): void 
   let i = 0
   let vTimer: any
   document?.addEventListener('touchstart', e => {
-    // console.log(e.touches.length)
     i++
     if (e.touches.length === touchCount && i >= touchCount) {
       i = 0
